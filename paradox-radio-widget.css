@@ -1,0 +1,282 @@
+.paradox-radio-widget {
+    position: relative;
+    max-width: 650px;
+    padding: 22px;
+    box-sizing: border-box;
+    font-family: Verdana;
+    background: #000;
+}
+
+.paradox-radio-widget .icon {
+    color: #000;
+}
+
+.paradox-shoutcast-background {
+    padding: 10px;
+    background: #ccc;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-background {
+    padding-bottom: 0;
+}
+
+.paradox-shoutcast-background-image {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    margin-top: -32px;
+    margin-left: -32px;
+    background-image: url(/wp-content/plugins/paradox-radio-widget/images/paradox-x-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.paradox-shoutcast-inner {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-logo-wrapper {
+    text-align: right;
+}
+
+.paradox-shoutcast-play-button-wrapper {
+    text-align: center;
+    padding: 18px 0 8px;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-play-button-wrapper {
+    width: 15%;
+    float: left;
+    padding: 16px 0 0;
+}
+
+.paradox-shoutcast-play-button {
+    display: inline-block;
+    border: 0;
+    box-shadow: none !important;
+}
+
+.paradox-shoutcast-play-button [class^="icon-"]:before,
+.paradox-shoutcast-play-button [class*=" icon-"]:before {
+    font-size: 30px;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-play-button [class^="icon-"]:before,
+.paradox-radio-widget-shortcode .paradox-shoutcast-play-button [class*=" icon-"]:before {
+    font-size: 50px;
+}
+
+.paradox-shoutcast-play-button:hover {
+    color: transparent;
+    background: transparent;
+}
+
+.paradox-shoutcast-play-button .icon-play {
+    margin-left: 5px;
+}
+
+.paradox-shoutcast-play-button .icon-play:hover,
+.paradox-shoutcast-play-button .icon-pause:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-current-song-volume {
+    width: 85%;
+    float: right;
+}
+
+.paradox-shoutcast-current-song {
+    font-size: 12px;
+    text-align: center;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-current-song {
+    font-size: 16px;
+    text-align: left;
+}
+
+.paradox-shoutcast-current-song p {
+    margin: 0;
+    font-weight: 400;
+    color: #000;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-current-song p {
+    display: inline-block;
+}
+
+.paradox-shoutcast-current-song-artist {
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-current-song-artist {
+    margin-right: 15px;
+}
+
+.paradox-shoutcast-volume-wrapper {
+
+}
+
+.paradox-shoutcast-volume-wrapper .icon {
+    width: 15%;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-volume-wrapper .icon {
+    /*display: none;*/
+    width: 10%;
+    height: inherit;
+    line-height: 28px;
+    margin-top: -2px;
+    font-size: 16px;
+}
+
+.paradox-shoutcast-volume {
+    position: relative;
+    width: 70%;
+    float: left;
+    padding: 20px 0;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-volume {
+    width: 80%;
+    padding-top: 10px;
+}
+
+.paradox-shoutcast-volume-slider {
+    height: 2px;
+    background: #999;
+}
+
+.paradox-shoutcast-volume-slider .ui-slider-range {
+    position: absolute;
+    height: 2px;
+    background: #000;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-volume-slider,
+.paradox-radio-widget-shortcode .paradox-shoutcast-volume-slider .ui-slider-range {
+    height: 6px;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-volume-slider {
+    background: #000;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-volume-slider .ui-slider-range {
+    background: #fff;
+}
+
+.paradox-shoutcast-volume-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    height: 1em;
+    width: 1em;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    border-radius: 50%;
+    background: #000;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-volume-slider .ui-slider-handle {
+    margin-top: -0.3em;
+}
+
+.paradox-shoutcast-link {
+    box-shadow: none !important;
+    font-size: 12px;
+    text-decoration: none !important;
+    color: #333;
+}
+
+.paradox-shoutcast-social-media {
+    margin-top: 20px;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-bottom: -12px;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    background: transparent;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-social-media {
+    margin: 0;
+    padding-top: 0;
+    color: #000;
+    background: #ccc;
+}
+
+.paradox-shoutcast-social-media-wrapper,
+.paradox-shoutcast-staytuned {
+    position: relative;
+    z-index: 20;
+}
+
+.paradox-shoutcast-staytuned {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+.paradox-shoutcast-social-media a {
+    display: inline-block;
+    border: 0;
+    box-shadow: none !important;
+    cursor: pointer;
+}
+
+.paradox-shoutcast-social-media [class^="icon-"]:before,
+.paradox-shoutcast-social-media [class*=" icon-"]:before {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    font-size: 10px;
+    background: #fff;
+}
+
+.paradox-radio-widget-shortcode .paradox-shoutcast-social-media [class^="icon-"]:before,
+.paradox-radio-widget-shortcode .paradox-shoutcast-social-media [class*=" icon-"]:before {
+    color: #fff;
+    background: #000;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .paradox-radio-widget-shortcode .paradox-shoutcast-play-button [class^="icon-"]:before,
+    .paradox-radio-widget-shortcode .paradox-shoutcast-play-button [class*=" icon-"]:before {
+        font-size: 40px;
+    }
+
+    .paradox-radio-widget-shortcode .paradox-shoutcast-play-button-wrapper {
+        width: 20%;
+        padding-top: 20px;
+    }
+
+    .paradox-radio-widget-shortcode .paradox-shoutcast-current-song-volume {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .paradox-radio-widget-shortcode .paradox-shoutcast-play-button-wrapper {
+        width: 100%;
+        clear: both;
+        padding: 20px 0;
+    }
+
+    .paradox-radio-widget-shortcode .paradox-shoutcast-current-song-volume {
+        width: 100%;
+    }
+}
